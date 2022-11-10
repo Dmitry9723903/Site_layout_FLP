@@ -1,0 +1,486 @@
+@import url(./fonts.css);
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 10%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;   
+
+}
+
+.header_inner{
+    height: 90%;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 5%;
+    height: 65%;
+}
+
+.logo > img{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    width: 35%;
+    height: 100%;
+}
+
+.Header_menu{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.Languege{
+    background-image: url(./img/united-kingdom.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    width: 30px;
+    height: 25px;
+}
+
+.book__btn{
+    position: relative;
+    right: 1%;
+    width: 15%;
+    height: 70%;
+    background-color: #5B6460;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book__btn > a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DIN-light'
+}
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+.main_intro{
+    width: 100%;
+    height: 85vh;
+    background-image: url(./img/both-ood-iceland-houses-have-a-hot-tub-at-the-front-overlooking-the-spectacular-scenery-this-makes-the-experience-even-more-surreal-says-ceo-andreas-tiik\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.intro__inner{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .35);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    box-sizing: border-box;
+    padding: 5em 5em;
+}
+
+.intro__heading{
+    font-family: 'Open-Sans' sans-serif;
+    font-weight: 300;
+    font-size: 70px;
+    margin: 0;
+}
+
+.intro__paragraph{
+    font-family: 'Mulish' sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.arrow__placeholder{
+    position: absolute;
+    top: 90%;
+    right: 47%;
+    width: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow left_arrow{
+    transform: rotate(180deg);
+}
+
+.main_cabins{
+    height: 125vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cabins_upper{
+    font-family: 'Open-Sans' sans-serif;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cabins_upper_paragraph, .main_forest_paragraph{
+    width: 50%;
+    height: 55%;
+    box-sizing: border-box;
+    padding: 1em 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cabins_upper_paragraph > h2, .main_forest_paragraph > h2{
+    font-size: 35px;
+    font-weight: 400;
+    color: #5B6460;
+}
+
+.cabins_upper_paragraph > p, .main_forest_paragraph > p{
+    font-size: 25px;
+    font-weight: 300;
+    width: 80%;
+    color: black;
+}
+
+.cabins_upper_paragraph > a, .main_forest_paragraph > a{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #5B6460;
+}
+
+.cabins_upper_paragraph > a > span, .main_forest_paragraph > a > span{
+    content: "";
+    display: block;
+    background-color: #5B6460;
+    width: 96px;
+    height: 2px;
+}
+
+.cabins_upper_img{
+    width: 45%;
+    height: 100%;
+    background-image: url(./img/the-bed-features-luxurious-supima-linen-and-woolen-blankets-as-well-as-hand-knit-pillows-from-a-local-artist\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.cabins_lowwer{
+    width: 97%;
+    height: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabins_lowwer > img{
+    width: 33%;
+    height: 90%;
+}
+
+.main_forest{
+    background-color: #E9ECE0;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+
+.main_forest_img{
+    width: 50%;
+    height: 100%;
+    background-image: url(./img/Screen\ Shot\ 2021-02-26\ at\ 16.18\ 1.png);
+    background-size: cover;
+    background-position: 0%;
+    background-repeat: no-repeat;
+}
+
+.forest_img_inner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, .3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forest_img_inner > div{
+    height: 38%;
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 2em;
+    right: 2em;
+    border-radius: 50%;
+}
+
+.forest_img_inner > div > div{
+    height: 75%;
+    width: 75%;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 50%;
+}
+
+.forest_img_inner > div > div > div{
+    height: 70%;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 50%;
+
+    font-family: 'DIN-light';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.main_forest_paragraph{
+    width: 50%;
+    height: 50%;
+    padding: 10em;
+}
+
+.main_facilites{
+    width: 100%;
+    height: 40vh;
+    background-color: #5B6460;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Open sans', sans-serif;
+    color: white;
+}
+
+.main_facilites > h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.main_facilites_inner{
+    width: 60%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_facilites_inner > div{
+    width: 20%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.main_aboutus{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    position: relative;
+}
+
+.aboutus_left, .aboutus_right{
+    width: 50%;
+    height: 100%;
+    background-image: url(./img/more_abot_us_left.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aboutus_right{
+    background-image: url(./img/more_about_us_right.png);
+}
+
+.more_aboutus{
+    width: 10%;
+    height: 33%;
+    position: absolute;
+    background-color: #E9ECE0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: calc(50% - 12%);
+    left: calc(50% - 5%);
+}
+
+footer{
+    width: 100%;
+    height: 50vh;
+    background-color: #5B6460;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__inner__top{
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.footer__inner__top > p{
+    font-family: 'Open sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer__inner__top > ul{
+    list-style: none;
+    width: 40%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__inner__top > ul > li > a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'DIN-light';
+    font-weight: 100;
+}
+
+.footer__inner__center{
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.footer__inner__form{
+    width: 30%;
+    height: 70%;
+}
+
+.footer__inner__form > form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+.footer__inner__form > form > input[type='text']{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+    color: white;
+    font-family: 'Open sans', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    box-sizing: border-box;
+    padding-left: 1em;
+}
+
+.footer__inner__form > form > input[type='text']::placeholder{
+    font-size: 16px;
+    color: white;
+    font-family: 'Open sans', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    box-sizing: border-box;
+    padding-left: 1em;
+}
+
+.footer__inner__form > form > input[type='button']{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+}
+
+.footer__inner__form > p{
+    font-size: 16px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 100;
+}
+
+.footer__list_pay{
+    width: 25%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    align-self: flex-start;
+}
+
+.footer__inner__bottom{
+    width: 80%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 100;
+}
